@@ -3,7 +3,7 @@
 
 ## Project Description
 
-Le Ciné Club is an Airtable and React build where the user is able to leave reviews on previously selected movies for the month. From the homepage, the user is able to select from a dropdown menu a movie of the month, that leads to a corresponding page with more info on said movie. Here the user is able to add and see comments and reviews from other members as well. 
+Le Ciné Club is an Airtable and React build where the user is able to leave reviews on previously selected movies for the month. From the homepage, the user is able to select from a dropdown menu a movie of the month, that leads to a corresponding page with more info on said movie. Here the user is able to add and see comments and reviews from other members as well and participate in a full discussion. 
 
 ## Wireframes
 
