@@ -2,12 +2,25 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Movies from "./components/Movies";
 import Carousell from "./components/Carousell";
+import { baseURL2, config2 } from "./services";
+import { useEffect, useState } from "react";
 import { Route } from "react-router-dom";
 import './App.css';
+import axios from "axios";
+
 
 function App() {
+  const [movieInfo, setMovieInfo] = useState([]);
+  const [toggleFetch, setToggleFetch] = useState(false);
 
 
+  useEffect(() => {
+    const getMovie = async () => {
+      const resp = await axios.get(baseURL2, config2);
+      setMovieInfo(resp.data.records);
+    }
+    getMovie();
+  }, [toggleFetch]);
 
   return (
     <div className="App">
@@ -28,22 +41,22 @@ function App() {
       </h4>
       <Carousell />
       <Route path="/lamb">
-      <Movies movieId=""/>
+        <Movies movies={movieInfo} setToggleFetch={setToggleFetch}/>
       </Route>
       <Route path="/jam">
-      <Movies />
+        <Movies movie={movieInfo} setToggleFetch={setToggleFetch}/>
       </Route>
       <Route path="/fifth">
-      <Movies />
+      <Movies movie={movieInfo} setToggleFetch={setToggleFetch}/>
       </Route>
       <Route path="/edward">
-      <Movies />
+      <Movies movie={movieInfo} setToggleFetch={setToggleFetch}/>
       </Route>
       <Route path="/fight">
-      <Movies movieId="recEcASruxvvSP1fb"/>
+      <Movies movie={movieInfo} setToggleFetch={setToggleFetch}/>
       </Route>
       <Route path="/clueless">
-      <Movies />
+      <Movies movie={movieInfo} setToggleFetch={setToggleFetch}/>
       </Route>
       <Footer />
     </div>
