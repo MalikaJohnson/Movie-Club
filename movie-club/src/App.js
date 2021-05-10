@@ -1,13 +1,11 @@
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import Movies from "./components/Movies";
 import Carousell from "./components/Carousell";
 import { Route } from "react-router-dom";
 import './App.css';
 
 function App() {
-
-
-
 
 
 
@@ -29,7 +27,24 @@ function App() {
         So Bienvenue Mes Amis!! This months theme is 90s Classics.
       </h4>
       <Carousell />
-     
+      <Route path="/lamb">
+      <Movies />
+      </Route>
+      <Route path="/jam">
+      <Movies />
+      </Route>
+      <Route path="/fifth">
+      <Movies />
+      </Route>
+      <Route path="/edward">
+      <Movies />
+      </Route>
+      <Route path="/fight">
+      <Movies />
+      </Route>
+      <Route path="/clueless">
+      <Movies />
+      </Route>
       <Footer />
     </div>
   );

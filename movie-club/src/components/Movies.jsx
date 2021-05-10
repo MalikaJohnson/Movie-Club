@@ -1,4 +1,4 @@
-import {  baseURL2, config_2 } from "./services";
+import { baseURL2, config_2 } from "./services";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
@@ -20,7 +20,9 @@ function Movies(props) {
 
     <div className="movie">
       <img>{movieInfo.img}</img>
-      <h3>{ movieInfo.title}</h3>
+      <h3>{movieInfo.title}</h3>
+      <h3>({movieInfo.year-released})</h3>
+      <h3>{movieInfo.plot}</h3>
 
 
     </div>
