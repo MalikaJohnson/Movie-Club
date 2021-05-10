@@ -28,7 +28,7 @@ function App() {
       </h4>
       <Carousell />
       <Route path="/lamb">
-      <Movies />
+      <Movies movieId=""/>
       </Route>
       <Route path="/jam">
       <Movies />
@@ -40,7 +40,7 @@ function App() {
       <Movies />
       </Route>
       <Route path="/fight">
-      <Movies />
+      <Movies movieId="recEcASruxvvSP1fb"/>
       </Route>
       <Route path="/clueless">
       <Movies />
