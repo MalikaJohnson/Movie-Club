@@ -27,7 +27,7 @@ function App() {
         <br />
         So Bienvenue Mes Amis!! This months theme is 90s Classics.
       </h4>
-      {/* <Carousell /> */}
+      <Carousell />
      
       <Footer />
     </div>

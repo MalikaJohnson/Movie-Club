@@ -1,11 +1,11 @@
 main {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   box-sizing: border-box;
 }
 .visible a {
   display: block;
+  text-decoration: none;
 }
 .invisible a {
   display: none;
