@@ -1,6 +1,6 @@
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-
+import Homepage from "./components/Homepage";
 import Movie from "./components/Movie";
 import Carousell from "./components/Carousell";
 import { baseURL2, config2 } from "./services";
@@ -28,8 +28,9 @@ function App() {
       <Nav />
       
       <Route exact path="/">
-        <h3>Home</h3>
-        </Route>
+        <Homepage />
+        {/* <h3>Home</h3>
+       
       
       <h4>Welcome to Le Ciné Club, the movie app where
       members are given the chance to rate and discuss handpicked movies
@@ -41,8 +42,8 @@ function App() {
         <br />
         So Bienvenue Mes Amis!! This months theme is 90s Classics.
       </h4>
-      <Carousell />
-      
+        <Carousell /> */}
+        </Route>
       <Route path="/:id">
         <Movie movies={movieInfo} />
       </Route>
