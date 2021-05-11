@@ -1,48 +1,39 @@
 
-import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useState } from "react";
 import axios from "axios";
-import { baseURL, config } from "../services";
+import { baseURL1, config } from "../services";
 
-function Form() {
-  const [title, setTitle] = useState("")
+function Form(props) {
+  const [author, setAuthor] = useState("")
   const [rating, setRating] = useState("")
   const [review, setReview] = useState("")
 
-  const params = useParams
-  
-  useEffect(() => {
-    if (params.id && props.movies.length) {
-      const movie = props.movies.find((movie) => movie.id === params.id);
-      if (movie) {
-        setTitle(movie.fields.title);
-        setRating(movie.fields.rating);
-        setReview(movie.fields.review);
-      }
-    }
-  }, [props.movie, params.id]);
 
   const handleSubmit = async (e) => {
     e. preventdefault()
     const newReview = {
-      title,
+      author,
       rating,
-      review,
-    }
+      review: [props.movie.id]
+    };
 
-    
+    await axios.post(`$(baseURL1)`, {fields: newReview}, config);
+  props.setToggleFetch((curr) => !curr);
+
   }
+
+
 
   return (
     
     <div>
-      <form>
-        <label htmlFor="title">Title: </label>
+      <form onSubmit={handleSubmit} >
+        <label htmlFor="author">Author: </label>
         <input
           type="text"
-          id="title"
-          value={title}
-          onChange={(e) => setTitle(e.target.value)}
+          id="author"
+          value={author}
+          onChange={(e) => setAuthor(e.target.value)}
         />
         <label htmlFor="rating">Rating: </label>
         <input
@@ -58,7 +49,7 @@ function Form() {
           value={review}
           onChange={(e) => setReview(e.target.value)}
         />
-          <button type="Post"></button>
+          <button type="Post">Post</button>
       </form>
     </div>
   )
