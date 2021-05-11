@@ -13,7 +13,7 @@ function Nav() {
         <Link to="/reccew1jvxLDb4lbK">The Silence of the Lambs</Link>
         <Link to="/reckgkftaEURuX8nS">Space Jam</Link>
         <Link to="/recxuM0hH8uz7qyDn">The Fifth Element</Link>
-        <Link to="/recZdS3JCeMMEZxeF">Edward Sissorhand</Link>
+        <Link to="/recZdS3JCeMMEZxeF">Edward Sissorhands</Link>
         <Link to="/recEcASruxvvSP1fb">Fight Club</Link>
         <Link to="/recxok2qGReTTCByE">Clueless</Link>
       </main>
