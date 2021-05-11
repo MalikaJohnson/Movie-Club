@@ -10,12 +10,12 @@ function Nav() {
       <main className={visible ? "visible" : "invisible"}>
         <button onClick={() => setVisible(!visible)}>Movies</button>
         <Link to="/">Home</Link>
-        <Link to="/lamb">The Silence of the Lambs</Link>
-        <Link to="/jam">Space Jam</Link>
-        <Link to="/fifth">The Fifth Element</Link>
-        <Link to="/edward">Edward Sissorhand</Link>
-        <Link to="/fight">Fight Club</Link>
-        <Link to="/clueless">Clueless</Link>
+        <Link to="/reccew1jvxLDb4lbK">The Silence of the Lambs</Link>
+        <Link to="/reckgkftaEURuX8nS">Space Jam</Link>
+        <Link to="/recxuM0hH8uz7qyDn">The Fifth Element</Link>
+        <Link to="/recZdS3JCeMMEZxeF">Edward Sissorhand</Link>
+        <Link to="/recEcASruxvvSP1fb">Fight Club</Link>
+        <Link to="/recxok2qGReTTCByE">Clueless</Link>
       </main>
     </div>
   );

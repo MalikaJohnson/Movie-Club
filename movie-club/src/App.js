@@ -1,6 +1,7 @@
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import Movies from "./components/Movies";
+
+import Movie from "./components/Movie";
 import Carousell from "./components/Carousell";
 import { baseURL2, config2 } from "./services";
 import { useEffect, useState } from "react";
@@ -25,6 +26,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      
       <Route exact path="/">
         <h3>Home</h3>
         </Route>
@@ -40,24 +42,12 @@ function App() {
         So Bienvenue Mes Amis!! This months theme is 90s Classics.
       </h4>
       <Carousell />
-      <Route path="/lamb">
-        <Movies movies={movieInfo} setToggleFetch={setToggleFetch}/>
+      
+      <Route path="/:id">
+        <Movie movies={movieInfo} />
       </Route>
-      <Route path="/jam">
-        <Movies movie={movieInfo} setToggleFetch={setToggleFetch}/>
-      </Route>
-      <Route path="/fifth">
-      <Movies movie={movieInfo} setToggleFetch={setToggleFetch}/>
-      </Route>
-      <Route path="/edward">
-      <Movies movie={movieInfo} setToggleFetch={setToggleFetch}/>
-      </Route>
-      <Route path="/fight">
-      <Movies movie={movieInfo} setToggleFetch={setToggleFetch}/>
-      </Route>
-      <Route path="/clueless">
-      <Movies movie={movieInfo} setToggleFetch={setToggleFetch}/>
-      </Route>
+     
+
       <Footer />
     </div>
   );
