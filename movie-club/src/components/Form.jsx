@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import { useParams } from "react-router-dom";
 import axios from "axios";
 import { baseURL1, config } from "../services";
 
@@ -7,17 +8,19 @@ function Form(props) {
   const [author, setAuthor] = useState("")
   const [rating, setRating] = useState("")
   const [review, setReview] = useState("")
+  const params = useParams()
 
 
   const handleSubmit = async (e) => {
-    e. preventdefault()
+    e.preventDefault()
     const newReview = {
       author,
       rating,
-      review: [props.movie.id]
+      review,
+      movies: [params.id]
     };
 
-    await axios.post(`$(baseURL1)`, {fields: newReview}, config);
+    await axios.post(`${baseURL1}`, {fields: newReview}, config);
   props.setToggleFetch((curr) => !curr);
 
   }

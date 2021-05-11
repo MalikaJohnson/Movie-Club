@@ -46,10 +46,9 @@ function App() {
         </Route>
       <Route path="/:id">
         <Movie movies={movieInfo} />
-        
+        <Form setToggleFetch={setToggleFetch} />
       </Route>
-      <Form setToggleFetch={setToggleFetch} />
-
+      
       <Footer />
     </div>
   );
