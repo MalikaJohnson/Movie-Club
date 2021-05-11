@@ -1,3 +1,5 @@
+import Carousell from "./Carousell"
+
 function Homepage() {
   return (
     <>
@@ -13,7 +15,7 @@ function Homepage() {
         <br />
         So Bienvenue Mes Amis!! This months theme is 90s Classics.
       </h4>
-      {/* <Carousell /> */}
+      <Carousell />
     </>
   );
 }
