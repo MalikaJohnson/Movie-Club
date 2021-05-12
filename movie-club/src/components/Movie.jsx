@@ -17,7 +17,9 @@ function Movie(props) {
           <h3>{movie && movie.fields.yearReleased}</h3>
           <h3>{movie && movie.fields.plot}</h3>
         </section>
-        <h2>Reviews</h2>
+        <hr className="dash"/>
+        <h2>--------Reviews-------</h2>
+        
         <section className="commentContainer">
           {movie &&
             movie.fields.comments.map((comment) => (
@@ -31,7 +33,7 @@ function Movie(props) {
 
           {movie &&
             movie.fields.comments.map((comment) => (
-              <h5>{comment.fields.review} </h5>
+              <h4>{comment.fields.review} </h4>
             ))}
         </section>
       </div>

@@ -31,27 +31,35 @@ function Form(props) {
     
     <div>
       <form onSubmit={handleSubmit} >
-        <label htmlFor="author">Author: </label>
+        <label htmlFor="author"></label>
         <input
+          placeholder="Author"
           type="text"
           id="author"
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
         />
-        <label htmlFor="rating">Rating: </label>
+        <br/>
+        <label htmlFor="rating"></label>
         <input
+          placeholder="Rating"
           type="text"
           id="rating"
           value={rating}
           onChange={(e) => setRating(e.target.value)}
         />
-        <label htmlFor="review">Review: </label>
+        <br/>
+        <label htmlFor="review"></label>
         <input
+          placeholder='Review'
           type="text"
           id="review"
           value={review}
           onChange={(e) => setReview(e.target.value)}
+        
         />
+        <br />
+        
           <button type="Post">Post</button>
       </form>
     </div>

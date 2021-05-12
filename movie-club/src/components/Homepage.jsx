@@ -3,7 +3,7 @@ import Carousell from "./Carousell"
 function Homepage() {
   return (
     <>
-      <h3>Home</h3>
+      <h3 className="Hompage">Home</h3>
 
       <h4>
         Welcome to Le Ciné Club, the movie app where members are given the
