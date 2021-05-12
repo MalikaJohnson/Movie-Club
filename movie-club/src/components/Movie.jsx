@@ -12,13 +12,17 @@ function Movie(props) {
     return (
       <div>
         <section className="movieContainer">
+          <section classname="moviePoster">
           <img src={movie && movie.fields.img} alt="moviePoster"/>
+          </section>
+          <section className="movieInfo">
           <h3>{movie && movie.fields.title}</h3>
           <h3>{movie && movie.fields.yearReleased}</h3>
           <h3>{movie && movie.fields.plot}</h3>
+          </section>
         </section>
         <hr className="dash"/>
-        <h2>--------Reviews-------</h2>
+        <h2>-------Reviews-------</h2>
         
         <section className="commentContainer">
           {movie &&

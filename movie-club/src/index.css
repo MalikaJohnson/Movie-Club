@@ -1,13 +1,2 @@
-main {
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-}
-.visible a {
-  display: block;
-  text-decoration: none;
-}
-.invisible a {
-  display: none;
-}
+
 

@@ -29,7 +29,7 @@ function Form(props) {
 
   return (
     
-    <div>
+    <div className="form">
       <form onSubmit={handleSubmit} >
         <label htmlFor="author"></label>
         <input
@@ -60,7 +60,7 @@ function Form(props) {
         />
         <br />
         
-          <button type="Post">Post</button>
+          <button className="Post"type="Post">Post</button>
       </form>
     </div>
   )
