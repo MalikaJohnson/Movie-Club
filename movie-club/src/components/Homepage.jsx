@@ -3,8 +3,11 @@ import Carousell from "./Carousell"
 function Homepage() {
   return (
     <>
-      <h3 className="Hompage">Home</h3>
-
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <h4>
         Welcome to Le Ciné Club, the movie app where members are given the
         chance to rate and discuss handpicked movies every month. Members are
@@ -15,7 +18,17 @@ function Homepage() {
         <br />
         So Bienvenue Mes Amis!! This months theme is 90s Classics.
       </h4>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <Carousell />
+      <br/>
+      <br />
+      <br/>
+      <br/>
     </>
   );
 }

@@ -1,45 +1,75 @@
 import Carousel from "react-bootstrap/Carousel";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Carousell() {
   return (
     <div>
       <Carousel fade>
         <Carousel.Item>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/W6Mm8Sbe__o" title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/W6Mm8Sbe__o"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
-            alt="Second slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/v98aXG562h4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Mgjwq1ZzdPQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </Carousel.Item>
+        <Carousel.Item>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/O1nDozs-LxI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </Carousel.Item>
+        <Carousel.Item>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/FrEf8XHToGI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </Carousel.Item>
+        <Carousel.Item>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/7iTFYsmFV_Q"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </Carousel.Item>
       </Carousel>
     </div>
@@ -47,5 +77,3 @@ function Carousell() {
 }
 
 export default Carousell;
-
-
