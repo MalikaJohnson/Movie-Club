@@ -103,4 +103,20 @@
   }
   /* ------------------------ media --------------------------------------- */
 
+  @media only screen and (max-width: 610px)  {
+    .movieInfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: none;
+  }
+  .movieContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+  }
   
