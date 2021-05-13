@@ -7,9 +7,13 @@ function Nav() {
 
   return (
     <div className="Nav">
+      <header className="background">
       <h1>Le Ciné Club</h1>
+      
+      </header>
       <DropdownButton />
-      <hr className="dash"/>
+      
+      
          
 
     </div>

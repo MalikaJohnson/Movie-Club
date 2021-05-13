@@ -8,28 +8,47 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
  h1 {
   font-family: 'Great Vibes', cursive;
-  color:honeydew;
+  color:rgb(0, 2, 2);
   letter-spacing: 4px;
-  text-align:left;
-  padding-top:20px ;
+  text-align: left;
+  padding-top:80px ;
   padding-left: 15px;
   font-size: 60px;
+  text-shadow: 2px 2px 8px rgb(82,182,196);
+ }
+
+ h2.quote {
+  font-family: 'Economica', sans-serif;
+  color:rgb(82,182,196);
+
  }
 
  h2 {
-   color: honeydew;
+   color:rgb(82,182,196);
    font-family: 'Great Vibes', cursive;
    letter-spacing: 5px;
    font-size: 35px;
  }
- h3, h4, h5 {
+  h3 {
    color:rgb(173, 166, 166);
-   font-family: 'Open Sans', sans-serif;
-   font-size: 18px;
+   font-family: 'Economica', sans-serif;
+   font-size: 25px;
  }
+
+ h4 {
+  color:rgb(173, 166, 166);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;
+ }
+
+h5 {
+  color:rgb(173, 166, 166);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
 
  p {
    color:honeydew;
@@ -68,6 +87,7 @@
   }
   .movieInfo {
     padding-left: 20px;
+    
   }
   img {
     border-radius: 10px;
@@ -92,6 +112,15 @@
     display: flex;
     justify-content: flex-end;
   }
+  /* -------------------------------- Header ----------------------------------------------- */
+   div.Nav {
+     
+     background-image: url(https://images.unsplash.com/photo-1570385404967-fe4e1b48454b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTYxfHxtb3ZpZSUyMHJlZWxzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 70%;
+     
+   }
   /* ---------------------------------- Media --------------------------- */
 
   @media only screen and (max-width: 610px)  {

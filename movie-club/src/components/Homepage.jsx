@@ -1,9 +1,16 @@
 import Carousell from "./Carousell"
+import Moviecard from "./Moviecard"
 
 function Homepage() {
   return (
     <>
+      <br />
+      <br />
+      <br />
+      <h2 className="quote">"THE OBJECT OF ART IS NOT TO REPRODUCE REALITY, BUT TO CREATE
+        A REALITY OF THE SAME INTENSITY."</h2>
       <br/>
+        <h5>-Alberto Giacometti</h5>
       <br/>
       <br/>
       <br/>
@@ -15,7 +22,7 @@ function Homepage() {
         individuals, or those on the complete opposite side of the spectrum.
         <br />
         <br />
-        So Bienvenue Mes Amis!! This months theme is 90s Classics.
+        So Bienvenue Mes Amis!! This months theme is: 90s Classics.
       </h4>
       <br/>
       <br/>
@@ -27,7 +34,12 @@ function Homepage() {
       <br/>
       <br />
       <br/>
-      <br/>
+      <br />
+      <h4>Check back in next month for the beginning of our Action Packed Summer. </h4>
+      <br />
+      <br />
+      <br />
+      <Moviecard />
     </>
   );
 }
