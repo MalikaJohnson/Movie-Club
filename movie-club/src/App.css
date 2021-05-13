@@ -4,7 +4,7 @@
  }
 
 
-   /*  ------------------------- Fonts/Headers ------------------------------ */
+   /*  ---------------------------- Fonts/Headers ------------------------------ */
 
  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
@@ -28,6 +28,7 @@
  h3, h4, h5 {
    color:rgb(173, 166, 166);
    font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
  }
 
  p {
@@ -39,7 +40,7 @@
     border-top: 1px dashed white ;
 
   }
-/* ----------------------------- dropdown menu ----------------------------- */
+/* ------------------------------ Dropdown Menu ----------------------------- */
   main {
     display: flex;
     flex-direction: column;
@@ -54,7 +55,7 @@
     display: none;
   }
 
-  /* -------------------------- buttons ----------------------------------- */
+  /* ------------------------------- Buttons ------------------------------ */
   button {
     background: white;
     color:black;
@@ -65,7 +66,7 @@
     background: rgb(73, 73, 61);
     color:white;
   }
-  /* ------------------------------ Movie/text ---------------------------------- */
+  /* ------------------------------ Movie/Text ---------------------------------- */
  
   .commentContainer {
     box-sizing: border-box;
@@ -101,7 +102,13 @@
   .comments {
     height: 20%;
   }
-  /* ------------------------ media --------------------------------------- */
+  /* --------------------------------- NavBar -------------------------------------- */
+  
+  .dropdownBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* ---------------------------------- Media --------------------------- */
 
   @media only screen and (max-width: 610px)  {
     .movieInfo {

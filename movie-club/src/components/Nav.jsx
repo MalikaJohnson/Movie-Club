@@ -8,8 +8,9 @@ function Nav() {
   return (
     <div className="Nav">
       <h1>Le Ciné Club</h1>
+      <DropdownButton />
       <hr className="dash"/>
-         <DropdownButton />
+         
 
     </div>
   );

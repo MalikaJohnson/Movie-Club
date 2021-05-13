@@ -11,6 +11,9 @@ function Movie(props) {
   if (props) {
     return (
       <div>
+        <br />
+        <br />
+        <br />
         <section className="movieContainer">
           <section classname="moviePoster">
           <img src={movie && movie.fields.img} alt="moviePoster"/>
@@ -21,9 +24,12 @@ function Movie(props) {
           <h3>{movie && movie.fields.plot}</h3>
           </section>
         </section>
-        <hr className="dash"/>
+        <br />
+        <hr className="dash" />
+        <br />
         <h2>-------Reviews-------</h2>
-        
+        <br />
+        <br />
         <section className="commentContainer">
           {movie &&
             movie.fields.comments.map((comment) => (

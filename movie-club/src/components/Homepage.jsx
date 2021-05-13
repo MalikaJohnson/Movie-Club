@@ -7,7 +7,6 @@ function Homepage() {
       <br/>
       <br/>
       <br/>
-      <br/>
       <h4>
         Welcome to Le Ciné Club, the movie app where members are given the
         chance to rate and discuss handpicked movies every month. Members are
