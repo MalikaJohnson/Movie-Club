@@ -28,7 +28,7 @@
  h3, h4, h5 {
    color:rgb(173, 166, 166);
    font-family: 'Open Sans', sans-serif;
-   font-size: 20px;
+   font-size: 18px;
  }
 
  p {
@@ -39,20 +39,6 @@
   hr.dash {
     border-top: 1px dashed white ;
 
-  }
-/* ------------------------------ Dropdown Menu ----------------------------- */
-  main {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-  }
-  .visible a {
-    display: block;
-    text-decoration: none;
-    color:rgb(173, 166, 166)
-  }
-  .invisible a {
-    display: none;
   }
 
   /* ------------------------------- Buttons ------------------------------ */
@@ -69,8 +55,6 @@
   /* ------------------------------ Movie/Text ---------------------------------- */
  
   .commentContainer {
-    box-sizing: border-box;
-    border: 4px solid white; 
     padding-bottom: 20px;
   }
 

@@ -10,6 +10,7 @@ function Movie(props) {
 
   if (props) {
     return (
+      
       <div>
         <br />
         <br />
@@ -30,21 +31,23 @@ function Movie(props) {
         <h2>-------Reviews-------</h2>
         <br />
         <br />
+        
         <section className="commentContainer">
           {movie &&
             movie.fields.comments.map((comment) => (
-              <h4>{comment.fields.author} </h4>
+              <h4>{comment.fields.author}
+                <br />
+                <br />
+                {comment.fields.rating}
+                <br/>
+              {comment.fields.review} 
+                <br />
+                <br />
+                </h4>
+              
             ))}
 
-          {movie &&
-            movie.fields.comments.map((comment) => (
-              <h5>{comment.fields.rating} </h5>
-            ))}
-
-          {movie &&
-            movie.fields.comments.map((comment) => (
-              <h4>{comment.fields.review} </h4>
-            ))}
+          
         </section>
       </div>
     );
