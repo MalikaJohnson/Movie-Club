@@ -22,7 +22,9 @@ function Form(props) {
 
     await axios.post(`${baseURL1}`, {fields: newReview}, config);
   props.setToggleFetch((curr) => !curr);
-
+  setAuthor("")
+  setRating("")
+  setReview("")
   }
 
 
@@ -43,6 +45,7 @@ function Form(props) {
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
         />
+         
         <br/>
         <label htmlFor="rating"></label>
         <input
@@ -52,6 +55,7 @@ function Form(props) {
           value={rating}
           onChange={(e) => setRating(e.target.value)}
         />
+         
         <br/>
         <label htmlFor="review"></label>
         <input
@@ -62,6 +66,7 @@ function Form(props) {
           onChange={(e) => setReview(e.target.value)}
         
         />
+          
         <br />
         <br />
         <br />
