@@ -93,8 +93,24 @@ h5 {
     border-radius: 10px;
     
   }
+  /* -------------------------------- New Movies -------------------------------------------- */
 
-  /* --------------------------------- Form ----------------------------- */
+  div.card-title.h5 {
+    font-family: 'Economica', sans-serif;
+   font-size: 25px;
+   color:rgb(82,182,196)
+  }
+
+  .card-body {
+    background-color:rgb(15, 15, 15);
+  }
+  p.card-text {
+    color:rgb(173, 166, 166);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  }
+
+  /* --------------------------------- Form ------------------------------------------ */
 
   .form {
     padding-top: 30px;

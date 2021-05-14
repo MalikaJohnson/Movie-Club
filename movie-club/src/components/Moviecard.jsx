@@ -1,9 +1,11 @@
-import CardGroup from "react-bootstrap/CardGroup";
+import Card from "react-bootstrap/Card";
+import CardDeck from "react-bootstrap/CardDeck";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Moviecard() {
   return (
-    <div>
-      <CardGroup>
+    <div className="cardContainer">
+      <CardDeck>
         <Card>
           <Card.Img
             variant="top"
@@ -36,7 +38,7 @@ function Moviecard() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card >
+        <Card>
           <Card.Img
             variant="top"
             src="https://movieposters2.com/images/1747054-b.jpg"
@@ -49,9 +51,10 @@ function Moviecard() {
               his worst fears become real when sex slavers abduct Kim and her
               friend shortly after they arrive in Paris for vacation.
             </Card.Text>
+            .
           </Card.Body>
         </Card>
-        <Card >
+        <Card>
           <Card.Img
             variant="top"
             src="https://fanart.tv/fanart/movies/9335/movieposter/transporter-2-531b8b971e7af.jpg"
@@ -63,12 +66,11 @@ function Moviecard() {
               seems easy enough, as chauffeur and bodyguard to young Jack
               (Hunter Clary), son of crusading politician Jefferson Billings
               (Matthew Modine). The problem is that Billings is crusading
-              against an international drug cartel. They retaliate by kidnapping
-              Jack and infecting him with a deadly and highly contagious virus.
+              against an international drug cartel.
             </Card.Text>
           </Card.Body>
         </Card>
-      </CardGroup>
+      </CardDeck>
     </div>
   );
 }

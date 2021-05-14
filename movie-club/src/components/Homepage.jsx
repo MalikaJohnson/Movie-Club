@@ -40,6 +40,9 @@ function Homepage() {
       <br />
       <br />
       <Moviecard />
+      <br />
+      <br />
+      <br />
     </>
   );
 }
