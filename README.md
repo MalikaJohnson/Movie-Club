@@ -1,6 +1,8 @@
 
 ## Le Ciné Club
 
+https://determined-roentgen-6bfc64.netlify.app/
+
 ## Project Description
 
 Le Ciné Club is an Airtable and React build where the user is able to leave reviews on previously selected movies for the month. From the homepage, the user is able to select from a dropdown menu a movie of the month, that leads to a corresponding page with more info on said movie. Here the user is able to add and see comments and reviews from other members as well and participate in a full discussion. 
@@ -91,38 +93,40 @@ The Airtable is returning data as follows:
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|May 6-7| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|May 7| Project Approval/ Airtable Setup/ Pseudocode  | Incomplete
-|May 10| Component Creation/ Get and Set Data| Incomplete
-|May 11| CSS Compenents | Incomplete
-|May 12| Initial Functional Model  | Incomplete
-|May 13| Advanced CSS | Incomplete
+|May 6-7| Prompt / Wireframes / Priority Matrix / Timeframes | complete
+|May 7| Project Approval/ Airtable Setup/ Pseudocode  | complete
+|May 10| Component Creation/ Get and Set Data| complete
+|May 11| CSS Compenents | complete
+|May 12| Initial Functional Model  | complete
+|May 13| Advanced CSS | complete
 |May 14| Presentations | Incomplete
 
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Proposal | H | 3hrs| hrs | hrs |
-| Airtable setup | H | 2hrs| hrs | hrs |
-| Data population for Homepage | H | 5hrs| hrs | hrs |
-| Data population for page 2 | H | 6hrs| hrs | hrs |
-| Form creation | H | 4hrs| hrs | hrs |
-| Form update pg 2  | H | 2hrs| hrs | hrs |
-| Data creation for dropdown menu | H | 3hrs| hrs | hrs |
-| Component CSS Homepage| H | 5hrs| hrs | hrs |
-| Component CSS page 2  | H | 5hrs| hrs | hrs |
-| Connecting Airtable info for page 1 and 2  | H | 3hrs| hrs | hrs |
-| Carousel Creation Homepage | H | 3hrs| hrs | hrs |
+| Proposal | H | 3hrs| 5hrs | 5hrs |
+| Airtable setup | H | 2hrs| 3.5hrs | 3.5hrs |
+| Data population for Homepage | H | 5hrs| 5hrs | 5hrs |
+| Data population for page 2 | H | 6hrs| 4hrs | 4hrs |
+| Form creation | H | 4hrs| 3hrs | 3hrs |
+| Form update pg 2  | H | 2hrs| 2hrs | 2hrs |
+| Data creation for dropdown menu | H | 3hrs| 3hrs | 3hrs |
+| Component CSS Homepage| H | 5hrs| 10hrs | 10hrs |
+| Component CSS page 2  | H | 5hrs| 5hrs | 5hrs |
+| Connecting Airtable info for page 1 and 2  | H | 3hrs| 3hrs | 3hrs |
+| Carousel Creation Homepage | H | 3hrs| 3hrs | 3hrs |
 
-| Total | H | 42hrs| hrs | hrs |
+| Total | H | 42hrs| 46.5hrs | 46.5hrs |
 
 ## SWOT Analysis
 
 ### Strengths:
-
+A strength that I feel that I had during this project was time management and planning. I had a very concrete vision how what i wanted and how I wanted to 
+have my project come across to the user. So I feel like having a good understanding what I was up against gaveme a better understanding of how to delegate my time.
 ### Weaknesses:
-
+A weakness I would have to say, would be the knowledge gaps. I wanted to challenge myself and learn at the same time but I had to keep in mind I only have learned but so much. Google was very helpful and pushing myself to really look back at older lessons and try to connect and understand why certain things worked the way they did while coding was the biggest thing I had todo in order to overcome this weakness.
 ### Opportunities:
-
+A weakness was actually using bootstrap which changed the whole viewing of the site and I had to work around that but that at best was a challenge that I was happy to take on, since I have never used it before. it really made have to think creatively on how to struture the page after certain elements were rearraged and or enlarged.
 ### Threats:
+A challenge was linking the tables together via Airtable in a one to one relationship and making a post request to pull up both the movies and the comments that match with said movie at the same time. 
