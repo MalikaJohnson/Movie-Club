@@ -22,10 +22,10 @@ function Homepage() {
         individuals, or those on the complete opposite side of the spectrum.
         <br />
         <br />
-        So Bienvenue Mes Amis!! This months theme is: 90s Classics.
+        So Bienvenue Mes Amis!! This months theme is:
       </h4>
       <br/>
-      <br/>
+      <h2 className="theme">90s Classics</h2>
       <br/>
       <br/>
       <br/>
@@ -35,7 +35,8 @@ function Homepage() {
       <br />
       <br/>
       <br />
-      <h4>Check back in next month for the beginning of our Action Packed Summer. </h4>
+      <h3>Check back in next month for the beginning of our Action Packed Summer. </h3>
+      <br />
       <br />
       <br />
       <br />

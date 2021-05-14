@@ -8,6 +8,7 @@ function Moviecard() {
       <CardDeck>
         <Card>
           <Card.Img
+            className="imgCard"
             variant="top"
             src="https://movieposters2.com/images/1123275-b.jpg"
           />
@@ -24,6 +25,7 @@ function Moviecard() {
         </Card>
         <Card>
           <Card.Img
+          className="imgCard"
             variant="top"
             src="https://movieposters2.com/images/662745-b.jpg"
           />
@@ -40,6 +42,7 @@ function Moviecard() {
         </Card>
         <Card>
           <Card.Img
+          className="imgCard"
             variant="top"
             src="https://movieposters2.com/images/1747054-b.jpg"
           />
@@ -56,6 +59,7 @@ function Moviecard() {
         </Card>
         <Card>
           <Card.Img
+          className="imgCard"
             variant="top"
             src="https://fanart.tv/fanart/movies/9335/movieposter/transporter-2-531b8b971e7af.jpg"
           />
