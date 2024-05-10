@@ -72,6 +72,12 @@ button:hover {
   background: rgb(73, 73, 61);
   color: white;
 }
+
+a#nav-dropdown.dropdown-toggle.nav-link  {
+  
+  color:rgb(8, 8, 8);
+
+}
 /* ------------------------------ Movie/Text ---------------------------------- */
 
 .commentContainer {
@@ -101,6 +107,7 @@ div.card-title.h5 {
 
 .card-body {
   background-color: rgb(15, 15, 15);
+  overflow:hidden;
 }
 p.card-text {
   color: rgb(173, 166, 166);
@@ -110,7 +117,16 @@ p.card-text {
 
 .imgCard {
   border-radius: 0%;
+  
 }
+
+ .imgCard:focus
+  {
+  transform:scale(1.5);
+  z-index: .5,
+  
+}
+
 
 /* --------------------------------- Form ------------------------------------------ */
 
