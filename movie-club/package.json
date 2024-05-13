@@ -61,5 +61,9 @@
     "@storybook/node-logger": "^6.2.9",
     "@storybook/preset-create-react-app": "^3.1.7",
     "@storybook/react": "^6.2.9"
+  },
+
+  "optionalDependencies": {
+    "babel-loader": "8.1.0"
   }
 }
